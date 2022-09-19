@@ -57,9 +57,12 @@ I only received an accuracy score of 0.7301 (73%) exactly, I was closer this tim
 
 #### Third neural network model: 
 For this model, I took a new approach entirely. Instead of using the Rectified Linear Unit (ReLU) function, as I had done for my first and second models, I used the Sigmoid function as well as incorporated a fourth layer. Still, I fell short and the result was an accuracy score of 0.7314 (73%). Though I was getting closer to my goal of 75%, the models weren't increasing the accuracy score fast enough. 
+<img width="557" alt="Screen Shot 2022-09-18 at 7 50 26 PM" src="https://user-images.githubusercontent.com/104043438/190938420-f8139632-3000-4ede-adfb-63bbd2f18228.png">
 
 #### Fourth neural network model: 
 For my final model, I decided to use the ReLU function again but lower each hidden layer as well as add a fourth one. Unfortunately, I still could not achieve a 75% accuracy score but this was my closest score yet! 
+
+
 
 
 
