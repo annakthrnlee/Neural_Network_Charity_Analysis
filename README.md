@@ -50,18 +50,22 @@ To address the limitations of the basic neural network, we can implement a more 
 
 #### First neural network model:
 Located in my AlphabetSoupCharity.ipynb file, I decided to only use two hidden layers. There were 80 neurons in the first layer and 30 neurons in the second layer, as well as a 3600 weight parameter in the first layer and 2430 in the second. I only achieved an accuracy score of 0.729 (73%) and I had hoped for at least 75%. Thus, in my next neural network model, I decided to switch some things around to see if I could achieve my desired score. These additional layers can observe and weigh interactions between clusters of neurons across the entire dataset, which means they can identify and account for more information than any number of neurons in a single hidden layer.
+
 <img width="403" alt="Screen Shot 2022-09-18 at 7 54 39 PM" src="https://user-images.githubusercontent.com/104043438/190938695-395081b8-23ed-4061-9aec-74e285c0a975.png">
 
 #### Second neural network model: 
 I only received an accuracy score of 0.7301 (73%) exactly, I was closer this time but not close enough. Adding a third layer did not make a very big impact. 
+
 <img width="390" alt="Screen Shot 2022-09-18 at 6 40 59 PM" src="https://user-images.githubusercontent.com/104043438/190935019-c40a861a-fa74-4d34-b01c-72add5d32d9f.png">
 
 #### Third neural network model: 
 For this model, I took a new approach entirely. Instead of using the Rectified Linear Unit (ReLU) function, as I had done for my first and second models, I used the Sigmoid function as well as incorporated a fourth layer. Still, I fell short and the result was an accuracy score of 0.7314 (73%). Though I was getting closer to my goal of 75%, the models weren't increasing the accuracy score fast enough. 
+
 <img width="557" alt="Screen Shot 2022-09-18 at 7 50 26 PM" src="https://user-images.githubusercontent.com/104043438/190938420-f8139632-3000-4ede-adfb-63bbd2f18228.png">
 
 #### Fourth neural network model: 
 For my final model, I decided to use the ReLU function again but only incorporate 2 layers. The results didn't differ much yet again, so an overall goal of 75% accuracy is yet to be achieved. 
+
 <img width="491" alt="Screen Shot 2022-09-18 at 7 58 55 PM" src="https://user-images.githubusercontent.com/104043438/190938934-5ccd8807-d333-46c0-9b69-694ad4bae0e8.png">
 
 
