@@ -42,12 +42,25 @@ At the beginning of my analysis, I removed the EIN and NAME columns from the cha
 
 <img width="1357" alt="Screen Shot 2022-09-18 at 6 17 53 PM" src="https://user-images.githubusercontent.com/104043438/190934181-e33fe112-4bac-4aee-af91-f8202479ecf8.png">
 
-### Compiling, Training, and Evaluating the Model: Questions to help better understand the analysis
+### Compiling, Training, and Evaluating the Model: 
 
-#### How many neurons, layers, and activation functions did you select for your neural network model, and why?
 To address the limitations of the basic neural network, we can implement a more robust neural network model by adding additional hidden layers. A neural network with more than one hidden layer is known as a deep neural network: 
 
 <img width="567" alt="Screen Shot 2022-09-18 at 6 26 36 PM" src="https://user-images.githubusercontent.com/104043438/190934503-071b7479-d7ab-4c98-9994-4b0f4576f6f8.png">
+
+In my first neural network model, located in my AlphabetSoupCharity.ipynb file, I decided to only use two hidden layers. There were 80 neurons in the first layer and 30 neurons in the second layer, as well as a 3600 weight parameter in the first layer and 2430 in the second. I only achieved an accuracy score of 0.729 (73%) and I had hoped for at least 75%. Thus, in my next neural network model, I decided to switch some things around to see if I could achieve my desired score. These additional layers can observe and weigh interactions between clusters of neurons across the entire dataset, which means they can identify and account for more information than any number of neurons in a single hidden layer.
+
+![image](https://user-images.githubusercontent.com/104043438/190934625-141ff8ce-27ed-4cc7-a36b-f0b0fff0f4f9.png)
+
+Second neural network model: Only received an accuracy score of 0.7301 (73%) exactly, I was closer this time but not close enough. 
+<img width="390" alt="Screen Shot 2022-09-18 at 6 40 59 PM" src="https://user-images.githubusercontent.com/104043438/190935019-c40a861a-fa74-4d34-b01c-72add5d32d9f.png">
+
+Third neural network model: For this model, I took a new approach entirely. Instead of using the Rectified Linear Unit (ReLU) function, as I had done for my first and second models, I used the Sigmoid function as well as incorporated the fourth layer. Still, I fell short and the result was an accuracy score of 0.7314 (73%). Though I was getting closer to my goal of 75%, the models weren't increasing the accuracy score fast enough. 
+
+Fourth neural network model: In my last model I decided to use the Tanh function which is also identified by a characteristic S curve; however, it transforms the output to a range between -1 and 1. I went back to incorporating three hidden layers rather than four because I felt that after adding a third, the fourth layer and so on didn't change my results enough to significantly change the results. 
+
+
+
 
 
 #### Were you able to achieve the target model performance?
