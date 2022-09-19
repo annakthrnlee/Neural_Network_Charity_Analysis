@@ -29,7 +29,8 @@ Using my knowledge of machine learning and neural networks, I used features in t
 
 ### Results:
 
-#### Data Preprocessing: Questions to help better understand the analysis
+### Data Preprocessing: Questions to help better understand the analysis
+
 #### What variable(s) are considered the target(s) for your model?
 Target variables are the variable whose values are modeled and predicted by other variables. Thus, the IS_SUCCESSFUL variable would be the target variable because it contains binary data; This variable refers to whether or not the charity donation was used effectively. 
 
