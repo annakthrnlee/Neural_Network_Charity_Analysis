@@ -68,8 +68,8 @@ For my final model, I decided to use the ReLU function again but only incorporat
 
 <img width="491" alt="Screen Shot 2022-09-18 at 7 58 55 PM" src="https://user-images.githubusercontent.com/104043438/190938934-5ccd8807-d333-46c0-9b69-694ad4bae0e8.png">
 
-
-
+## Summary:
+After conducting four different neural network models, I was unable to achieve the desired 75% accuracy score. I changed the number of hidden layers I used and the functions for each model but my results only varied by around .5%. The highest accuracy score I achieved was 0.7314, these results can be found in attempt 3 of my models. I used four different hidden layers along with the Sigmoid function. I noticed that the Sigmoid function compared to the ReLU function gave the best accuracy results for this dataset. 
 
 
 
